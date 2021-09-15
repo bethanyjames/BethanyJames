@@ -1,17 +1,18 @@
+/******************* PHONE *******************/
 body {
     background-color: black;
-    overflow: hidden;
 }
 
 h1 {
     color: white;
-    font-size: 630%;
+    font-size: 430%;
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    text-align: right;
     letter-spacing: 10px;
     font-weight: 100;
     text-transform: uppercase;
     padding-top: 10%;
+    padding-right: 5%;
 }
 
 h2 {
@@ -55,12 +56,13 @@ p {
     padding-left: 5%;
 }
 
-.circle {
+.logoTitle {
     position: absolute;
     z-index: -1;
-    margin-top: -503px;
-    margin-left: 236px;
-    width: 8%;
+    margin-top: -815px;
+    margin-left: -30px;
+    padding-left: 0;
+    width: 38%;
 }
 
 .logo {
@@ -70,4 +72,90 @@ p {
     width: 10%;
     padding: 0%;
     margin: 0;
+}
+
+
+
+
+/******************* TABLET *******************/
+@media only screen and (min-width:42em) {
+
+
+
+}
+
+
+/******************* DESKTOP *******************/
+@media only screen and (min-width:55em) {
+
+    body {
+        overflow: hidden;
+    }
+
+
+    h1 {
+        font-size: 630%;
+        text-align: center;
+        letter-spacing: 10px;
+        padding-top: 10%;
+    }
+
+    h2 {
+        text-align: right;
+        padding-right: 400px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        font-weight: 100;
+        letter-spacing: 8px;
+        font-size: 300%;
+        margin-top: -50px;
+    }
+
+    ul {
+        margin-top: 230px;
+        list-style: none;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        overflow: hidden;
+        margin-left: 2%;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 20px;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        padding-left: 5%;
+    }
+
+    .logoTitle {
+        position: absolute;
+        z-index: -1;
+        margin-top: -582px;
+        margin-left: 116px;
+        width: 18%;
+    }
+
+    .logo {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 10%;
+        padding: 0%;
+        margin: 0;
+    }
+
 }
