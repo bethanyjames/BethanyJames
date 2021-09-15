@@ -1,10 +1,10 @@
 /******************* PHONE *******************/
 body {
-    background-color: black;
+    background-color:#f3f2eb;
 }
 
 h1 {
-    color: white;
+    color: gray;
     font-size: 430%;
     font-family: 'Montserrat', sans-serif;
     text-align: right;
@@ -18,7 +18,7 @@ h1 {
 h2 {
     text-align: right;
     padding-right: 7%;
-    color: #ffafcc;
+    color: gray;
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
     font-weight: 100;
@@ -29,7 +29,6 @@ h2 {
 ul {
     margin-top: 130px;
     list-style: none;
-    color: white;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -39,7 +38,7 @@ ul {
 
 a {
     display: block;
-    color: white;
+    color: gray;
     text-decoration: none;
     text-align: center;
     padding-bottom: 20px;
@@ -51,7 +50,7 @@ a:hover {
 
 p {
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: gray;
 }
 
 .logoTitle {
@@ -105,14 +104,14 @@ p {
 
     h1 {
         font-size: 530%;
-        text-align: center;
+        text-align: right;
         letter-spacing: 10px;
         padding-top: 10%;
-        padding-right: 0%;
+        padding-right: 10%;
     }
 
     h2 {
-        padding-right: 20%;
+        padding-right: 4%;
         font-size: 300%;
     }
 
@@ -130,30 +129,31 @@ p {
 
     a {
         display: block;
-        color: white;
-        text-decoration: none;
-        text-align: center;
         padding: 20px;
     }
 
     p {
         font-family: 'Montserrat', sans-serif;
-        color: white;
         padding-left: 5%;
     }
 
-    .logoTitle {
-        display: inline-block;
+    .dots {
+        z-index: -2;
+        width: 70%;
+        left: -15%;
+        top: 25%;
+        margin-top: -32%;
+        margin-left: -8%;
         position: absolute;
+        transform: rotate(-155deg);
+    }
+
+    .laptop {
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        width: 30%;
+        margin-top: 12%;
         z-index: -1;
-        margin-top: 150px;
-        margin-left: 309px;
-        width: 7%;
     }
-
-    .logo {
-        display: inline-block;
-        width: 10%;
-    }
-
 }
