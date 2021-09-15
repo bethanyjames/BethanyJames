@@ -17,37 +17,36 @@ h1 {
 
 h2 {
     text-align: right;
-    padding-right: 400px;
+    padding-right: 7%;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
     font-weight: 100;
     letter-spacing: 8px;
-    font-size: 300%;
-    margin-top: -50px;
+    font-size: 200%;
 }
 
 ul {
-    margin-top: 230px;
+    margin-top: 130px;
     list-style: none;
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     overflow: hidden;
-    margin-left: 2%;
 }
 
-li {
-    float: left;
-}
 
-li a {
+a {
     display: block;
     color: white;
     text-decoration: none;
     text-align: center;
-    padding: 20px;
+    padding-bottom: 20px;
+}
+
+a:hover {
+    color: #ffafcc;
 }
 
 p {
@@ -59,8 +58,8 @@ p {
 .logoTitle {
     position: absolute;
     z-index: -1;
-    margin-top: -815px;
-    margin-left: -30px;
+    margin-top: -844px;
+    margin-left: -20px;
     padding-left: 0;
     width: 38%;
 }
@@ -69,18 +68,35 @@ p {
     position: absolute;
     top: 0px;
     right: 0px;
-    width: 10%;
+    width: 20%;
     padding: 0%;
     margin: 0;
+    display: none;
 }
 
-
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 
 /******************* TABLET *******************/
 @media only screen and (min-width:42em) {
 
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
 
+    h1 {
+        font-size: 350%;
+        text-align: center;
+    }
+
+    h2 {
+        text-align: right;
+        margin-right: 100px;
+    }
 
 }
 
@@ -94,40 +110,37 @@ p {
 
 
     h1 {
-        font-size: 630%;
+        font-size: 530%;
         text-align: center;
         letter-spacing: 10px;
         padding-top: 10%;
+        padding-right: 0%;
     }
 
     h2 {
         text-align: right;
-        padding-right: 400px;
+        padding-right: 40px;
         color: white;
         font-family: 'Montserrat', sans-serif;
         font-style: italic;
         font-weight: 100;
         letter-spacing: 8px;
         font-size: 300%;
-        margin-top: -50px;
+    }
+
+    .grid {
+        display: inline-block;
     }
 
     ul {
-        margin-top: 230px;
-        list-style: none;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        overflow: hidden;
         margin-left: 2%;
     }
 
-    li {
+    a {
         float: left;
     }
 
-    li a {
+    a {
         display: block;
         color: white;
         text-decoration: none;
