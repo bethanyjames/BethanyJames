@@ -52,11 +52,10 @@ a:hover {
 p {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    padding-left: 5%;
 }
 
 .logoTitle {
-    display: hidden;
+    display: none;
 }
 
 .logo {
@@ -144,6 +143,7 @@ p {
     }
 
     .logoTitle {
+        display: inline-block;
         position: absolute;
         z-index: -1;
         margin-top: 150px;
