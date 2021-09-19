@@ -3,27 +3,16 @@ body {
     background-color:#f3f2eb;
 }
 
-h1 {
-    color: gray;
-    font-size: 430%;
-    font-family: 'Montserrat', sans-serif;
-    text-align: right;
-    letter-spacing: 10px;
-    font-weight: 100;
-    text-transform: uppercase;
-    padding-top: 10%;
-    padding-right: 5%;
-}
 
-h2 {
-    text-align: right;
-    padding-right: 7%;
-    color: gray;
-    font-family: 'Montserrat', sans-serif;
-    font-style: italic;
-    font-weight: 100;
-    letter-spacing: 8px;
-    font-size: 200%;
+h1 {
+    font-size: 600%;
+    font-family: 'Megrim', cursive;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    color: rgb(230, 230, 218);
+    background-color: #f3f2eb;
+    text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
 }
 
 ul {
@@ -33,6 +22,8 @@ ul {
     text-transform: uppercase;
     letter-spacing: 3px;
     overflow: hidden;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 
@@ -53,41 +44,22 @@ p {
     color: gray;
 }
 
-.laptop {
-    display: none;
-}
+
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
 }
 
-.dots {
-    width: 180%;
-    margin-top: -150%;
-    margin-left: -15%;
-    z-index: -1;
-    position: absolute;
-    transform: rotate(175deg);
-}
 
 
 /******************* TABLET *******************/
 @media only screen and (min-width:42em) {
 
-    .grid {
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
-    }
-
     h1 {
-        font-size: 350%;
+        font-size: 550%;
         text-align: center;
-    }
-
-    h2 {
-        text-align: right;
-        margin-right: 100px;
     }
 
 }
@@ -102,59 +74,24 @@ p {
 
 
     h1 {
-        font-size: 530%;
-        text-align: right;
-        letter-spacing: 10px;
+        font-size: 750%;
+        text-align: center;
+        letter-spacing: 20px;
         padding-top: 10%;
-        padding-right: 10%;
-    }
-
-    h2 {
-        padding-right: 4%;
-        font-size: 300%;
     }
 
     .grid {
         display: inline-block;
+        justify-items: center;
     }
-
     ul {
-        margin-left: 2%;
-        margin-top: 10%;
+        margin-left: 5%;
     }
-
     a {
         float: left;
-    }
-
-    a {
         display: block;
         padding: 20px;
     }
 
-    p {
-        font-family: 'Montserrat', sans-serif;
-        padding-left: 5%;
-    }
 
-    .dots {
-        z-index: -2;
-        width: 70%;
-        left: -15%;
-        top: 25%;
-        margin-top: -32%;
-        margin-left: -8%;
-        position: absolute;
-        transform: rotate(-155deg);
-    }
-
-    .laptop {
-        position: absolute;
-        display: block;
-        left: 0%;
-        top: 0%;
-        width: 30%;
-        margin-top: 12%;
-        z-index: -1;
-    }
 }
